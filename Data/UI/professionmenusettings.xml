@@ -6,15 +6,15 @@
   -->
   <MenuItem>
     <Text>Pierre</Text>
-    <SkillID>Mining</SkillID>
-    <SkillID>Masonry</SkillID>
-    <SkillID>Stonecarving</SkillID>
+    <SkillID>Minage</SkillID>
+    <SkillID>Maçonnerie</SkillID>
+    <SkillID>Sculpture</SkillID>
   </MenuItem>
   <MenuItem>
     <Text>Bois</Text>
-    <SkillID>Woodcutting</SkillID>
-    <SkillID>Carpentry</SkillID>
-    <SkillID>Woodcarving</SkillID>
+    <SkillID>Bûcheronnage</SkillID>
+    <SkillID>Charpenterie</SkillID>
+    <SkillID>Sculpture</SkillID>
   </MenuItem>
   <MenuItem>
     <Text>Metaux</Text>
