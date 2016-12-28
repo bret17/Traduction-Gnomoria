@@ -52,7 +52,7 @@
     <AdditionalEquipmentSlot>Back</AdditionalEquipmentSlot>
     <AdditionalEquipmentSlot>Belt</AdditionalEquipmentSlot>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>GnomeUpperBody</BodyPartID>
       <MaterialID>StandardBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -138,14 +138,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>GnomeLowerBody</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>GnomeLeg</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
@@ -161,7 +161,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>GnomeFoot</BodyPartID>
             <MaterialID>StandardBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -195,16 +195,16 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>GnomeNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>GnomeHead</BodyPartID>
-          <MaterialID>StandardShell</MaterialID>
+          <MaterialID>StandardCoquille</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
@@ -323,7 +323,7 @@
             <Offset>0 9</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -332,7 +332,7 @@
             <EquipType>Head</EquipType>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>GnomeMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -342,7 +342,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>GnomeArm</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -418,7 +418,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>GnomeHand</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -442,7 +442,7 @@
     <ShowEquipment>true</ShowEquipment>
     <BaseSprite>Gnome</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>GnomeUpperBody</BodyPartID>
       <MaterialID>StandardBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -496,14 +496,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>GnomeLowerBody</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>GnomeLeg</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
@@ -519,7 +519,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>GnomeFoot</BodyPartID>
             <MaterialID>StandardBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -537,16 +537,16 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>GnomeNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>GnomeHead</BodyPartID>
-          <MaterialID>StandardShell</MaterialID>
+          <MaterialID>StandardCoquille</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
@@ -560,7 +560,7 @@
             <Offset>0 9</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -569,7 +569,7 @@
             <EquipType>Head</EquipType>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>GnomeMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -579,7 +579,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>GnomeArm</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -595,7 +595,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>GnomeHand</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -626,25 +626,25 @@
       <Gender>Female</Gender>
     </FarmedItem>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>AlpacaUpperBody</BodyPartID>
       <MaterialID>AlpacaBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>AlpacaLowerBody</BodyPartID>
         <MaterialID>AlpacaBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>pattes arriere</Name>
+          <Name>Jambe arriere</Name>
           <BodyPartID>AlpacaLeg</BodyPartID>
           <MaterialID>AlpacaBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>sabot arriere</Name>
+            <Name>Sabot arriere</Name>
             <BodyPartID>AlpacaHoof</BodyPartID>
             <MaterialID>AlpacaBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -652,19 +652,19 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>AlpacaNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Connection>true</Connection>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>AlpacaHead</BodyPartID>
           <MaterialID>AlpacaSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -674,13 +674,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes avant</Name>
+        <Name>Jambe avant</Name>
         <BodyPartID>AlpacaLeg</BodyPartID>
         <MaterialID>AlpacaBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>sabot avant</Name>
+          <Name>Sabot avant</Name>
           <BodyPartID>AlpacaHoof</BodyPartID>
           <MaterialID>AlpacaBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -700,25 +700,25 @@
       <Gender>Female</Gender>
     </FarmedItem>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>YakUpperBody</BodyPartID>
       <MaterialID>YakBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>YakLowerBody</BodyPartID>
         <MaterialID>YakBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>pattes arriere</Name>
+          <Name>Jambe arriere</Name>
           <BodyPartID>YakLeg</BodyPartID>
           <MaterialID>YakBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>sabot arriere</Name>
+            <Name>Sabot arriere</Name>
             <BodyPartID>YakHoof</BodyPartID>
             <MaterialID>YakBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -726,19 +726,19 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>YakNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>YakHead</BodyPartID>
           <MaterialID>YakSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -748,13 +748,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes avant</Name>
+        <Name>Jambe avant</Name>
         <BodyPartID>YakLeg</BodyPartID>
         <MaterialID>YakBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>sabot avant</Name>
+          <Name>Sabot avant</Name>
           <BodyPartID>YakHoof</BodyPartID>
           <MaterialID>YakBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -773,13 +773,13 @@
       <Gender>Female</Gender>
     </FarmedItem>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>EmuUpperBody</BodyPartID>
       <MaterialID>EmuBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>ailes</Name>
+        <Name>Aile</Name>
         <BodyPartID>EmuWing</BodyPartID>
         <MaterialID>EmuBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
@@ -787,19 +787,19 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>EmuNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Connection>true</Connection>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>EmuHead</BodyPartID>
           <MaterialID>EmuSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -807,7 +807,7 @@
             <Symmetrical>true</Symmetrical>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>le bec</Name>
+            <Name>Bec</Name>
             <BodyPartID>EmuBeak</BodyPartID>
             <MaterialID>EmuBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -816,13 +816,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>jambe</Name>
+        <Name>Jambe</Name>
         <BodyPartID>EmuLeg</BodyPartID>
         <MaterialID>EmuBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>griffes</Name>
+          <Name>Griffe</Name>
           <BodyPartID>EmuClaw</BodyPartID>
           <MaterialID>EmuBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -834,25 +834,25 @@
     <ID>HoneyBadger</ID>
     <CorpseAngles>180</CorpseAngles>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>HoneyBadgerUpperBody</BodyPartID>
       <MaterialID>HoneyBadgerBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>HoneyBadgerLowerBody</BodyPartID>
         <MaterialID>HoneyBadgerBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>HoneyBadgerLeg</BodyPartID>
           <MaterialID>HoneyBadgerBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>pattes arriere</Name>
+            <Name>Patte arriere</Name>
             <BodyPartID>HoneyBadgerFoot</BodyPartID>
             <MaterialID>HoneyBadgerBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -860,19 +860,19 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>HoneyBadgerNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>HoneyBadgerHead</BodyPartID>
           <MaterialID>HoneyBadgerSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -880,7 +880,7 @@
             <Symmetrical>true</Symmetrical>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>HoneyBadgerMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -889,13 +889,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>HoneyBadgerArm</BodyPartID>
         <MaterialID>HoneyBadgerBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>pattes avant</Name>
+          <Name>Patte avant</Name>
           <BodyPartID>HoneyBadgerHand</BodyPartID>
           <MaterialID>HoneyBadgerBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -907,51 +907,51 @@
     <ID>MonitorLizard</ID>
     <CorpseAngles>180</CorpseAngles>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>MonitorLizardUpperBody</BodyPartID>
       <MaterialID>MonitorLizardBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>MonitorLizardLowerBody</BodyPartID>
         <MaterialID>MonitorLizardBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>MonitorLizardLeg</BodyPartID>
           <MaterialID>MonitorLizardBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>pattes arriere</Name>
+            <Name>Pied arriere</Name>
             <BodyPartID>MonitorLizardFoot</BodyPartID>
             <MaterialID>MonitorLizardBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
           </ConnectsTo>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>queue</Name>
+          <Name>Queue</Name>
           <BodyPartID>MonitorLizardTail</BodyPartID>
           <MaterialID>MonitorLizardBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>MonitorLizardNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>MonitorLizardHead</BodyPartID>
           <MaterialID>MonitorLizardSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -959,7 +959,7 @@
             <Symmetrical>true</Symmetrical>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>MonitorLizardMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -968,13 +968,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>MonitorLizardArm</BodyPartID>
         <MaterialID>MonitorLizardBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>pattes avant</Name>
+          <Name>Front foot</Name>
           <BodyPartID>MonitorLizardHand</BodyPartID>
           <MaterialID>MonitorLizardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -986,25 +986,25 @@
     <ID>Bear</ID>
     <CorpseAngles>180</CorpseAngles>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>BearUpperBody</BodyPartID>
       <MaterialID>BearBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>BearLowerBody</BodyPartID>
         <MaterialID>BearBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>BearLeg</BodyPartID>
           <MaterialID>BearBone</MaterialID>
           <ToHitWeight>0.3</ToHitWeight>
           <Symmetrical>true</Symmetrical>
           <ConnectsTo>
-            <Name>pattes arriere</Name>
+            <Name>Patte arriere</Name>
             <BodyPartID>BearFoot</BodyPartID>
             <MaterialID>BearBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1012,19 +1012,19 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>BearNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>BearHead</BodyPartID>
           <MaterialID>BearSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -1032,7 +1032,7 @@
             <Symmetrical>true</Symmetrical>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>BearMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1041,13 +1041,13 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>BearArm</BodyPartID>
         <MaterialID>BearBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
         <ConnectsTo>
-          <Name>pattes avant</Name>
+          <Name>Patte avant</Name>
           <BodyPartID>BearHand</BodyPartID>
           <MaterialID>BearBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1059,19 +1059,19 @@
     <ID>Spider</ID>
     <CorpseAngles>180</CorpseAngles>
     <MainBody>
-      <Name>cephalothorax</Name>
-      <BodyPartID>SpiderCephalothorax</BodyPartID>
+      <Name>CephaloThorax</Name>
+      <BodyPartID>SpiderCephaloThorax</BodyPartID>
       <MaterialID>ThickChitin</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
-        <Name>abdomen</Name>
+        <Name>Abdomen</Name>
         <BodyPartID>SpiderAbdoman</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>dard</Name>
+          <Name>Stinger</Name>
           <BodyPartID>SpiderStinger</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1079,42 +1079,42 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>crocs</Name>
+        <Name>Crocs</Name>
         <BodyPartID>SpiderFang</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Limb>false</Limb>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes avant</Name>
+        <Name>Jambe avant</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes avant centrales</Name>
+        <Name>Milieu de la Jambe avant</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes arriere centrales</Name>
+        <Name>Milieu de la Jambe arriere</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes arriere</Name>
+        <Name>Jambe arriere</Name>
         <BodyPartID>SpiderLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.1</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>yeux medianes anterieures</Name>
+        <Name>anterior median eye</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1122,7 +1122,7 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>yeux medianes posterieurs</Name>
+        <Name>posterior median eye</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1130,7 +1130,7 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>yeux anterieurs lateraux</Name></Name>
+        <Name>anterior lateral eye</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1138,7 +1138,7 @@
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>yeux posterieurs lateraux</Name>
+        <Name>posterior lateral eye</Name>
         <BodyPartID>GnomeEye</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.01</ToHitWeight>
@@ -1151,7 +1151,7 @@
     <ID>Golem</ID>
     <BaseSprite>Golem</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>GolemUpperBody</BodyPartID>
       <MaterialID>MATERIALID_NONE</MaterialID>
       <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -1168,14 +1168,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>GolemLowerBody</BodyPartID>
         <MaterialID>MATERIALID_NONE</MaterialID>
         <TemplateMaterialIndex>0</TemplateMaterialIndex>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>GolemLeg</BodyPartID>
           <MaterialID>MATERIALID_NONE</MaterialID>
           <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -1192,7 +1192,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>GolemFoot</BodyPartID>
             <MaterialID>MATERIALID_NONE</MaterialID>
             <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -1202,7 +1202,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>GolemArm</BodyPartID>
         <MaterialID>MATERIALID_NONE</MaterialID>
         <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -1219,7 +1219,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>GolemHand</BodyPartID>
           <MaterialID>MATERIALID_NONE</MaterialID>
           <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -1234,7 +1234,7 @@
     <ID>Ogre</ID>
     <BaseSprite>Ogre</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>OgreUpperBody</BodyPartID>
       <MaterialID>OgreBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -1250,14 +1250,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>OgreLowerBody</BodyPartID>
         <MaterialID>OgreBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>OgreLeg</BodyPartID>
           <MaterialID>OgreBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
@@ -1273,7 +1273,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>OgreFoot</BodyPartID>
             <MaterialID>OgreBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1291,14 +1291,14 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>OgreNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>OgreHead</BodyPartID>
           <MaterialID>OgreSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
@@ -1314,7 +1314,7 @@
             <Offset>0 9</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -1323,7 +1323,7 @@
             <EquipType>Head</EquipType>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>OgreMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1333,7 +1333,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>OgreArm</BodyPartID>
         <MaterialID>OgreBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1349,7 +1349,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>OgreHand</BodyPartID>
           <MaterialID>OgreBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1372,7 +1372,7 @@
     <ID>BlueOgre</ID>
     <BaseSprite>BlueOgre</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>BlueOgreUpperBody</BodyPartID>
       <MaterialID>TwoHeadedOgreBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -1388,14 +1388,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>BlueOgreLowerBody</BodyPartID>
         <MaterialID>TwoHeadedOgreBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>BlueOgreLeg</BodyPartID>
           <MaterialID>TwoHeadedOgreBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
@@ -1411,7 +1411,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>BlueOgreFoot</BodyPartID>
             <MaterialID>TwoHeadedOgreBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1429,7 +1429,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>BlueOgreNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
@@ -1437,7 +1437,7 @@
         <Symmetrical>true</Symmetrical>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>BlueOgreHead</BodyPartID>
           <MaterialID>TwoHeadedOgreSkull</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
@@ -1453,7 +1453,7 @@
             <Offset>0 9</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -1462,7 +1462,7 @@
             <EquipType>Head</EquipType>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>BlueOgreMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1472,7 +1472,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>BlueOgreArm</BodyPartID>
         <MaterialID>TwoHeadedOgreBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1488,7 +1488,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>BlueOgreHand</BodyPartID>
           <MaterialID>TwoHeadedOgreBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1511,7 +1511,7 @@
     <ID>Mant</ID>
     <BaseSprite>Mant</BaseSprite>
     <MainBody>
-      <Name>thorax</Name>
+      <Name>Thorax</Name>
       <BodyPartID>MantThorax</BodyPartID>
       <MaterialID>ThickChitin</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -1526,20 +1526,20 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>abdomen</Name>
+        <Name>Abdomen</Name>
         <BodyPartID>MantAbdomen</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>dard</Name>
+          <Name>stinger</Name>
           <BodyPartID>MantStinger</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.25</ToHitWeight>
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>MantArm</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1555,7 +1555,7 @@
         </Tile>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>jambe</Name>
+        <Name>Jambe</Name>
         <BodyPartID>MantLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1571,7 +1571,7 @@
         </Tile>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>tete</Name>
+        <Name>Tete</Name>
         <BodyPartID>MantHead</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1586,7 +1586,7 @@
           <Offset>0 9</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>oeil compose</Name>
+          <Name>compound eye</Name>
           <BodyPartID>GnomeEye</BodyPartID>
           <MaterialID>StandardWeakFlesh</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1594,16 +1594,16 @@
           <Symmetrical>true</Symmetrical>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>mandibules</Name>
-          <BodyPartID>MantMandibles</BodyPartID>
+          <Name>Mandibules</Name>
+          <BodyPartID>MantMandibules</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
           <Limb>false</Limb>
           <Hand>true</Hand>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>antennes</Name>
-          <BodyPartID>MantAntennae</BodyPartID>
+          <Name>Antennes</Name>
+          <BodyPartID>MantAntennes</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>true</Limb>
@@ -1611,7 +1611,7 @@
           <Tile>
             <BodyTiles>
               <TileDetails>
-                <SpriteID>AntennaeRight</SpriteID>
+                <SpriteID>AntennesRight</SpriteID>
               </TileDetails>
             </BodyTiles>
             <DrawOrder>0</DrawOrder>
@@ -1626,7 +1626,7 @@
     <BaseSprite>Beetle</BaseSprite>
     <CorpseAngles>180</CorpseAngles>
     <MainBody>
-      <Name>thorax</Name>
+      <Name>Thorax</Name>
       <BodyPartID>BeetleThorax</BodyPartID>
       <MaterialID>ThickChitin</MaterialID>
       <ToHitWeight>0.75</ToHitWeight>
@@ -1641,35 +1641,35 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>abdomen</Name>
+        <Name>Abdomen</Name>
         <BodyPartID>BeetleAbdomen</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>1</ToHitWeight>
         <Limb>false</Limb>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes avant</Name>
+        <Name>Jambe avant</Name>
         <BodyPartID>BeetleLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes du millieu</Name>
+        <Name>Jambe intermédiaire</Name>
         <BodyPartID>BeetleLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>pattes arriere</Name>
+        <Name>Jambe arriere</Name>
         <BodyPartID>BeetleLeg</BodyPartID>
         <MaterialID>ThinChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Symmetrical>true</Symmetrical>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>tete</Name>
+        <Name>Tete</Name>
         <BodyPartID>BeetleHead</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>1</ToHitWeight>
@@ -1684,7 +1684,7 @@
           <Offset>0 9</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>oeil compose</Name>
+          <Name>compound eye</Name>
           <BodyPartID>GnomeEye</BodyPartID>
           <MaterialID>StandardWeakFlesh</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1692,15 +1692,15 @@
           <Symmetrical>true</Symmetrical>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>mandibules</Name>
-          <BodyPartID>BeetleMandibles</BodyPartID>
+          <Name>Mandibules</Name>
+          <BodyPartID>BeetleMandibules</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
           <Limb>false</Limb>
         </ConnectsTo>
         <ConnectsTo>
-          <Name>antennes</Name>
-          <BodyPartID>BeetleAntennae</BodyPartID>
+          <Name>Antennes</Name>
+          <BodyPartID>BeetleAntennes</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>true</Limb>
@@ -1712,7 +1712,7 @@
   <Item>
     <ID>BeetleCocoon</ID>
     <MainBody>
-      <Name>coquille</Name>
+      <Name>Coquille</Name>
       <BodyPartID>BeetleCocoon</BodyPartID>
       <MaterialID>ThinMantChitin</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -1723,7 +1723,7 @@
     <ID>Zombie</ID>
     <BaseSprite>Zombie</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>ZombieUpperBody</BodyPartID>
       <MaterialID>StandardBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -1739,14 +1739,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>ZombieLowerBody</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>ZombieLeg</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.5</ToHitWeight>
@@ -1762,7 +1762,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>ZombieFoot</BodyPartID>
             <MaterialID>StandardBone</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1780,16 +1780,16 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>ZombieNeck</BodyPartID>
         <MaterialID>StandardWeakFlesh</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>ZombieHead</BodyPartID>
-          <MaterialID>StandardShell</MaterialID>
+          <MaterialID>StandardCoquille</MaterialID>
           <ToHitWeight>0.75</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
@@ -1803,7 +1803,7 @@
             <Offset>0 9</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>oeil</Name>
+            <Name>Oeil</Name>
             <BodyPartID>GnomeEye</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.05</ToHitWeight>
@@ -1812,7 +1812,7 @@
             <EquipType>Head</EquipType>
           </ConnectsTo>
           <ConnectsTo>
-            <Name>bouche</Name>
+            <Name>Bouche</Name>
             <BodyPartID>ZombieMouth</BodyPartID>
             <MaterialID>StandardWeakFlesh</MaterialID>
             <ToHitWeight>0.1</ToHitWeight>
@@ -1822,7 +1822,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>ZombieArm</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1838,7 +1838,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>ZombieHand</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1862,7 +1862,7 @@
     <ShowEquipment>true</ShowEquipment>
     <BaseSprite>Skeleton</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>SkeletonUpperBody</BodyPartID>
       <MaterialID>StandardBone</MaterialID>
       <ToHitWeight>1</ToHitWeight>
@@ -1878,7 +1878,7 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>jambe</Name>
+        <Name>Jambe</Name>
         <BodyPartID>SkeletonLeg</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1894,7 +1894,7 @@
           <Offset>4 -2</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>pied</Name>
+          <Name>Pied</Name>
           <BodyPartID>SkeletonFoot</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1911,16 +1911,16 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>nez</Name>
+        <Name>Nez</Name>
         <BodyPartID>SkeletonNeck</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.05</ToHitWeight>
         <Connection>true</Connection>
         <EquipType>Body</EquipType>
         <ConnectsTo>
-          <Name>tete</Name>
+          <Name>Tete</Name>
           <BodyPartID>SkeletonHead</BodyPartID>
-          <MaterialID>StandardShell</MaterialID>
+          <MaterialID>StandardCoquille</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
@@ -1936,7 +1936,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>SkeletonArm</BodyPartID>
         <MaterialID>StandardBone</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
@@ -1952,7 +1952,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>SkeletonHand</BodyPartID>
           <MaterialID>StandardBone</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
@@ -1975,7 +1975,7 @@
     <ID>Automaton</ID>
     <BaseSprite>Automaton</BaseSprite>
     <MainBody>
-      <Name>haut du corps</Name>
+      <Name>Haut du corps</Name>
       <BodyPartID>AutomatonUpperBody</BodyPartID>
       <MaterialID>MATERIALID_NONE</MaterialID>
       <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -1997,14 +1997,14 @@
         <Offset>0 4</Offset>
       </Tile>
       <ConnectsTo>
-        <Name>bas du corps</Name>
+        <Name>Bas du corps</Name>
         <BodyPartID>AutomatonLowerBody</BodyPartID>
         <MaterialID>MATERIALID_NONE</MaterialID>
         <TemplateMaterialIndex>0</TemplateMaterialIndex>
         <ToHitWeight>0.75</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>jambe</Name>
+          <Name>Jambe</Name>
           <BodyPartID>AutomatonLeg</BodyPartID>
           <MaterialID>MATERIALID_NONE</MaterialID>
           <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -2026,7 +2026,7 @@
             <Offset>4 -2</Offset>
           </Tile>
           <ConnectsTo>
-            <Name>pied</Name>
+            <Name>Pied</Name>
             <BodyPartID>AutomatonFoot</BodyPartID>
             <MaterialID>MATERIALID_NONE</MaterialID>
             <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -2036,7 +2036,7 @@
         </ConnectsTo>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>tete</Name>
+        <Name>Tete</Name>
         <BodyPartID>AutomatonHead</BodyPartID>
         <MaterialID>MATERIALID_NONE</MaterialID>
         <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -2059,7 +2059,7 @@
         </Tile>
       </ConnectsTo>
       <ConnectsTo>
-        <Name>bras</Name>
+        <Name>Bras</Name>
         <BodyPartID>AutomatonArm</BodyPartID>
         <MaterialID>MATERIALID_NONE</MaterialID>
         <TemplateMaterialIndex>0</TemplateMaterialIndex>
@@ -2081,7 +2081,7 @@
           <Offset>7 4</Offset>
         </Tile>
         <ConnectsTo>
-          <Name>main</Name>
+          <Name>Main</Name>
           <BodyPartID>AutomatonHand</BodyPartID>
           <MaterialID>MATERIALID_NONE</MaterialID>
           <TemplateMaterialIndex>0</TemplateMaterialIndex>

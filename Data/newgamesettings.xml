@@ -85,12 +85,12 @@
       <RaceID>Skeleton</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
-      <Name>Scarabees</Name>
+      <Name>Coleopteres</Name>
       <RaceID>Beetle</RaceID>
       <RaceID>BeetleCocoon</RaceID>
     </EnemyRaceIDGroup>
     <EnemyRaceIDGroup>
-      <Name>Araignees</Name>
+      <Name>Araignées</Name>
       <RaceID>Spider</RaceID>
     </EnemyRaceIDGroup>
   </EnemyRaceOptions>
@@ -157,7 +157,7 @@
   <Settler>
     <Offset>-1 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Miner</Profession>
+    <Profession>Mineur</Profession>
     <HeldItem>
       <Item>
         <ItemID>Pickaxe</ItemID>
@@ -168,7 +168,7 @@
   <Settler>
     <Offset>-1 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Miner</Profession>
+    <Profession>Mineur</Profession>
     <HeldItem>
       <Item>
         <ItemID>Pickaxe</ItemID>
@@ -179,7 +179,7 @@
   <Settler>
     <Offset>0 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Woodcutter</Profession>
+    <Profession>Bucheron</Profession>
     <HeldItem>
       <Item>
         <ItemID>FellingAxe</ItemID>
@@ -190,7 +190,7 @@
   <Settler>
     <Offset>0 -1</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Woodcutter</Profession>
+    <Profession>Bucheron</Profession>
     <HeldItem>
       <Item>
         <ItemID>FellingAxe</ItemID>
@@ -216,12 +216,12 @@
   <Settler>
     <Offset>0 0</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Builder</Profession>
+    <Profession>Constructeur</Profession>
   </Settler>
   <Settler>
     <Offset>0 0</Offset>
     <RaceID>Gnome</RaceID>
-    <Profession>Builder</Profession>
+    <Profession>Constructeur</Profession>
   </Settler>
   <FarmAnimal>
     <Offset>1 0</Offset>

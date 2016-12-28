@@ -14,7 +14,7 @@
   -->
   <Item>
     <ID>Air</ID>
-    <Name>air</Name>
+    <Name>Air</Name>
     <Type>Air</Type>
     <Color>0 0 0 128</Color>
     <Value>0</Value>
@@ -22,7 +22,7 @@
   </Item>
   <Item>
     <ID>Grass</ID>
-    <Name>herbe</Name>
+    <Name>Herbe</Name>
     <Type>Plant</Type>
     <Value>0</Value>
     <Strength>0</Strength>
@@ -43,7 +43,7 @@
     </Heat>
     <Sustains>225</Sustains>
     <ID>Dirt</ID>
-    <Name>terre</Name>
+    <Name>Boue</Name>
     <Type>Soil</Type>
     <Color>171 125 35 255</Color>
     <Value>0</Value>
@@ -87,7 +87,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Granite</ID>
-    <Name>granit</Name>
+    <Name>Granite</Name>
     <Type>Stone</Type>
     <Color>128 128 128 255</Color>
     <Value>1</Value>
@@ -109,7 +109,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Basalt</ID>
-    <Name>basalte</Name>
+    <Name>Basalt</Name>
     <Type>Stone</Type>
     <Color>64 64 64 255</Color>
     <Value>1</Value>
@@ -131,7 +131,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Marble</ID>
-    <Name>marbre</Name>
+    <Name>Marbre</Name>
     <Type>Stone</Type>
     <Color>255 255 255 255</Color>
     <Value>1</Value>
@@ -153,7 +153,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Sandstone</ID>
-    <Name>gres</Name>
+    <Name>Gres</Name>
     <Type>Stone</Type>
     <Color>192 118 67 255</Color>
     <Value>1</Value>
@@ -175,7 +175,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Bauxite</ID>
-    <Name>bauxite</Name>
+    <Name>Bauxite</Name>
     <Type>Stone</Type>
     <Color>127 63 63 255</Color>
     <Value>1</Value>
@@ -197,7 +197,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Serpentine</ID>
-    <Name>serpentine</Name>
+    <Name>Serpentine</Name>
     <Type>Stone</Type>
     <Color>137 168 106 255</Color>
     <Value>1</Value>
@@ -219,7 +219,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>LapisLazuli</ID>
-    <Name>lapis lazuli</Name>
+    <Name>Lapis lazuli</Name>
     <Type>Stone</Type>
     <Color>75 93 255 255</Color>
     <Value>1</Value>
@@ -241,7 +241,7 @@
     </Heat>
     <Sustains>950</Sustains>
     <ID>Obsidian</ID>
-    <Name>obsidienne</Name>
+    <Name>Obsidian</Name>
     <Type>Stone</Type>
     <Color>16 16 16 255</Color>
     <Value>5</Value>
@@ -263,7 +263,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Brick</ID>
-    <Name>brique</Name>
+    <Name>Brick</Name>
     <Type>Stone</Type>
     <Color>124 32 32 255</Color>
     <Value>1</Value>
@@ -271,7 +271,7 @@
   </Item>
   <Item>
     <ID>Water</ID>
-    <Name>water</Name>
+    <Name>Eau</Name>
     <Type>Liquid</Type>
     <Color>0 0 255 128</Color>
     <Value>0</Value>
@@ -301,7 +301,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Pine</ID>
-    <Name>pin</Name>
+    <Name>Pin</Name>
     <Type>Wood</Type>
     <Color>199 134 54 255</Color>
     <Value>1</Value>
@@ -323,7 +323,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>AppleWood</ID>
-    <Name>bois de pommier</Name>
+    <Name>Bois de pommier</Name>
     <Type>Wood</Type>
     <Color>199 101 54 255</Color>
     <Value>1</Value>
@@ -345,7 +345,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Birch</ID>
-    <Name>bouleau</Name>
+    <Name>Bouleau</Name>
     <Type>Wood</Type>
     <Color>242 210 105 255</Color>
     <Value>1</Value>
@@ -353,7 +353,7 @@
   </Item>
   <Item>
     <ID>Coal</ID>
-    <Name>charbon</Name>
+    <Name>Charbon</Name>
     <Type>Coal</Type>
     <Color>64 64 64 255</Color>
     <Value>1</Value>
@@ -375,7 +375,7 @@
     </Heat>
     <Sustains>950</Sustains>
     <ID>Copper</ID>
-    <Name>cuivre</Name>
+    <Name>Cuivre</Name>
     <Type>Metal</Type>
     <Color>214 74 0 255</Color>
     <Value>2</Value>
@@ -397,7 +397,7 @@
     </Heat>
     <Sustains>950</Sustains>
     <ID>Malachite</ID>
-    <Name>malachite</Name>
+    <Name>Malachite</Name>
     <Type>Metal</Type>
     <Color>28 140 70 255</Color>
     <Value>2</Value>
@@ -419,7 +419,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Tin</ID>
-    <Name>etain</Name>
+    <Name>Etain</Name>
     <Type>Metal</Type>
     <Color>127 127 127 255</Color>
     <Value>2</Value>
@@ -441,7 +441,7 @@
     </Heat>
     <Sustains>1800</Sustains>
     <ID>Bronze</ID>
-    <Name>bronze</Name>
+    <Name>Bronze</Name>
     <Type>Metal</Type>
     <Color>166 125 61 255</Color>
     <!--Should be 4 value but since bronze is a converted material we have to account for deleting components
@@ -466,7 +466,7 @@
     </Heat>
     <Sustains>3200</Sustains>
     <ID>Iron</ID>
-    <Name>fer</Name>
+    <Name>Fer</Name>
     <Type>Metal</Type>
     <Color>76 76 76 255</Color>
     <Value>8</Value>
@@ -488,7 +488,7 @@
     </Heat>
     <Sustains>4800</Sustains>
     <ID>Steel</ID>
-    <Name>acier</Name>
+    <Name>Acier</Name>
     <Type>Metal</Type>
     <Color>70 130 180 255</Color>
     <!--Should be 16 value but since steel is a converted material we have to account for deleting components
@@ -514,7 +514,7 @@
     </Heat>
     <Sustains>3200</Sustains>
     <ID>Lead</ID>
-    <Name>plomb</Name>
+    <Name>lead</Name>
     <Type>Metal</Type>
     <Color>118 136 143 255</Color>
     <Value>8</Value>
@@ -539,7 +539,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Silver</ID>
-    <Name>argent</Name>
+    <Name>Argent</Name>
     <Type>Metal</Type>
     <Color>192 192 192 255</Color>
     <Value>6</Value>
@@ -561,7 +561,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Gold</ID>
-    <Name>or</Name>
+    <Name>Or</Name>
     <Type>Metal</Type>
     <Color>255 215 0 255</Color>
     <Value>12</Value>
@@ -583,7 +583,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>RoseGold</ID>
-    <Name>or rose</Name>
+    <Name>Or rose</Name>
     <Type>Metal</Type>
     <Color>183 110 121 255</Color>
     <!--Should be 100 value but since rose gold is a converted material we have to account for deleting components
@@ -608,7 +608,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Platinum</ID>
-    <Name>platine</Name>
+    <Name>Patine</Name>
     <Type>Metal</Type>
     <Color>229 228 226 255</Color>
     <Value>24</Value>
@@ -616,7 +616,7 @@
   </Item>
   <Item>
     <ID>Emerald</ID>
-    <Name>emeraude</Name>
+    <Name>Emeraude</Name>
     <Type>Gem</Type>
     <Color>25 233 25 255</Color>
     <Value>16</Value>
@@ -624,7 +624,7 @@
   </Item>
   <Item>
     <ID>Sapphire</ID>
-    <Name>saphir</Name>
+    <Name>Saphir</Name>
     <Type>Gem</Type>
     <Color>25 25 233 255</Color>
     <Value>16</Value>
@@ -632,14 +632,14 @@
   </Item>
   <Item>
     <ID>Strawberry</ID>
-    <Name>fraise</Name>
+    <Name>Fraise</Name>
     <Type>Plant</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
     <ID>Apple</ID>
-    <Name>pomme</Name>
+    <Name>Pomme</Name>
     <Type>Plant</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
@@ -662,7 +662,7 @@
     </Heat>
     <Sustains>225</Sustains>
     <ID>Wheat</ID>
-    <Name>ble</Name>
+    <Name>Ble</Name>
     <Type>Plant</Type>
     <Color>253 196 23 255</Color>
     <Value>1</Value>
@@ -670,14 +670,14 @@
   </Item>
   <Item>
     <ID>Cotton</ID>
-    <Name>cotton</Name>
+    <Name>Cotton</Name>
     <Type>Cloth</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
     <ID>Wool</ID>
-    <Name>laine</Name>
+    <Name>Laine</Name>
     <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Value>1</Value>
@@ -700,8 +700,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>StandardBone</ID>
-    <Name>os</Name>
-    <GroupName>goblin</GroupName>
+    <Name></Name>
+    <GroupName>Goblin</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -721,8 +721,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>StandardShell</ID>
-    <Name>coquille</Name>
-    <GroupName>goblin</GroupName>
+    <Name></Name>
+    <GroupName>Goblin</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -742,7 +742,7 @@
     </Heat>
     <Sustains>1800</Sustains>
     <ID>ThinChitin</ID>
-    <Name>chitine mince</Name>
+    <Name>chitin</Name>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -762,7 +762,7 @@
     </Heat>
     <Sustains>4800</Sustains>
     <ID>ThickChitin</ID>
-    <Name>chitine epaisse</Name>
+    <Name>chitin</Name>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -787,7 +787,7 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>StandardSkin</ID>
-    <Name>peau</Name>
+    <Name>Peau</Name>
     <Type>Hide</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -809,8 +809,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>YakHide</ID>
-    <Name>peau de yak</Name>
-    <GroupName>yak</GroupName>
+    <Name></Name>
+    <GroupName>Yak</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
     <Strength>1</Strength>
@@ -831,8 +831,8 @@
     </Heat>
     <Sustains>950</Sustains>
     <ID>BearHide</ID>
-    <Name>peau d ours</Name>
-    <GroupName>bear</GroupName>
+    <Name></Name>
+    <GroupName>Ours</GroupName>
     <Type>Hide</Type>
     <Value>4</Value>
     <Strength>1</Strength>
@@ -853,7 +853,7 @@
     </Heat>
     <Sustains>1</Sustains>
     <ID>StandardWeakFlesh</ID>
-    <Name>chaire fine</Name>
+    <Name></Name>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -878,24 +878,24 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>StandardStrongFlesh</ID>
-    <Name>chaire epaisse</Name>
-    <GroupName>goblin</GroupName>
+    <Name></Name>
+    <GroupName>Goblin</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
   </Item>
   <Item>
     <ID>Milk</ID>
-    <Name>lait</Name>
-    <GroupName>yak</GroupName>
+    <Name></Name>
+    <GroupName>Yak</GroupName>
     <Type>BodyFluid</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
     <ID>Egg</ID>
-    <Name>oeuf</Name>
-    <GroupName>emu</GroupName>
+    <Name></Name>
+    <GroupName>Emu</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
@@ -915,8 +915,8 @@
     </Heat>
     <Sustains>1800</Sustains>
     <ID>OgreHide</ID>
-    <Name>peau d ogre</Name>
-    <GroupName>ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre</GroupName>
     <Type>Flesh</Type>
     <Value>8</Value>
     <Strength>0.1</Strength>
@@ -936,8 +936,8 @@
     </Heat>
     <Sustains>4800</Sustains>
     <ID>ToughOgreHide</ID>
-    <Name>peau d ogre a 2 tetes</Name>
-    <GroupName>two-headed ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre a deux tetes</GroupName>
     <Type>Flesh</Type>
     <Value>16</Value>
     <Strength>0.1</Strength>
@@ -957,7 +957,7 @@
     </Heat>
     <Sustains>950</Sustains>
     <ID>ThinMantChitin</ID>
-    <Name>chitine mince</Name>
+    <Name>chitin</Name>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -977,7 +977,7 @@
     </Heat>
     <Sustains>1800</Sustains>
     <ID>ThickMantChitin</ID>
-    <Name>chitine epaisse</Name>
+    <Name>chitin</Name>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -999,8 +999,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>AlpacaHide</ID>
-    <Name>peau d alpaga</Name>
-    <GroupName>alpaca</GroupName>
+    <Name></Name>
+    <GroupName>Alpaca</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
     <Strength>1</Strength>
@@ -1022,8 +1022,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>EmuHide</ID>
-    <Name>peau d emeu</Name>
-    <GroupName>emu</GroupName>
+    <Name></Name>
+    <GroupName>Emu</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
     <Strength>1</Strength>
@@ -1045,7 +1045,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>HoneyBadgerHide</ID>
-    <Name>peau de blaireau</Name>
+    <Name></Name>
     <GroupName>honey badger</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
@@ -1068,7 +1068,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>MonitorLizardHide</ID>
-    <Name>peau de varan</Name>
+    <Name></Name>
     <GroupName>monitor lizard</GroupName>
     <Type>Hide</Type>
     <Value>2</Value>
@@ -1094,8 +1094,8 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>YakFlesh</ID>
-    <Name>viande de yak</Name>
-    <GroupName>yak</GroupName>
+    <Name></Name>
+    <GroupName>Yak</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -1120,8 +1120,8 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>AlpacaFlesh</ID>
-    <Name>viande d alpaga</Name>
-    <GroupName>alpaca</GroupName>
+    <Name></Name>
+    <GroupName>Alpaca</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -1146,8 +1146,8 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>EmuFlesh</ID>
-    <Name>viande d emeu</Name>
-    <GroupName>emu</GroupName>
+    <Name></Name>
+    <GroupName>Emu</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -1172,7 +1172,7 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>HoneyBadgerFlesh</ID>
-    <Name>viande de blaireau</Name>
+    <Name></Name>
     <GroupName>honey badger</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
@@ -1198,7 +1198,7 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>MonitorLizardFlesh</ID>
-    <Name>viande de varan</Name>
+    <Name></Name>
     <GroupName>monitor lizard</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
@@ -1224,8 +1224,8 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>BearFlesh</ID>
-    <Name>viande d ours</Name>
-    <GroupName>bear</GroupName>
+    <Name></Name>
+    <GroupName>Ours</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -1250,8 +1250,8 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>OgreFlesh</ID>
-    <Name>viande d ogre</Name>
-    <GroupName>ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -1276,8 +1276,8 @@
     </Heat>
     <Sustains>100</Sustains>
     <ID>TwoHeadedOgreFlesh</ID>
-    <Name>viande d ogre a 2 tetes</Name>
-    <GroupName>two-headed ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre a deux tetes</GroupName>
     <Type>Flesh</Type>
     <Value>1</Value>
     <Strength>1</Strength>
@@ -1299,8 +1299,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>YakBone</ID>
-    <Name>os de yak</Name>
-    <GroupName>yak</GroupName>
+    <Name></Name>
+    <GroupName>Yak</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1322,8 +1322,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>AlpacaBone</ID>
-    <Name>os d alpaga</Name>
-    <GroupName>alpaca</GroupName>
+    <Name></Name>
+    <GroupName>Alpaca</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1345,8 +1345,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>EmuBone</ID>
-    <Name>os d emeu</Name>
-    <GroupName>emu</GroupName>
+    <Name></Name>
+    <GroupName>Emu</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1368,7 +1368,7 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>HoneyBadgerBone</ID>
-    <Name>os de blaireau</Name>
+    <Name></Name>
     <GroupName>honey badger</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
@@ -1391,8 +1391,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>MonitorLizardBone</ID>
-    <Name>os de varan</Name>
-    <GroupName>monitor lizard</GroupName>
+    <Name></Name>
+    <GroupName>Monitor lizard</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1414,8 +1414,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>BearBone</ID>
-    <Name>os d ours</Name>
-    <GroupName>bear</GroupName>
+    <Name></Name>
+    <GroupName>Ours</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1437,8 +1437,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>OgreBone</ID>
-    <Name>os d ogre</Name>
-    <GroupName>ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1460,8 +1460,8 @@
     </Heat>
     <Sustains>200</Sustains>
     <ID>TwoHeadedOgreBone</ID>
-    <Name>os d ogre a 2 tetes</Name>
-    <GroupName>two-headed ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre a deux tetes</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>0.9</Strength>
@@ -1482,8 +1482,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>YakSkull</ID>
-    <Name>crane de yak</Name>
-    <GroupName>yak</GroupName>
+    <Name></Name>
+    <GroupName>Yak</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -1504,8 +1504,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>AlpacaSkull</ID>
-    <Name>crane d alpaga</Name>
-    <GroupName>alpaca</GroupName>
+    <Name></Name>
+    <GroupName>Alpaca</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -1526,8 +1526,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>EmuSkull</ID>
-    <Name>crane d emeu</Name>
-    <GroupName>emu</GroupName>
+    <Name></Name>
+    <GroupName>Emu</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -1548,7 +1548,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>HoneyBadgerSkull</ID>
-    <Name>crane de blaireau</Name>
+    <Name></Name>
     <GroupName>honey badger</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
@@ -1570,7 +1570,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>MonitorLizardSkull</ID>
-    <Name>crane de varan</Name>
+    <Name></Name>
     <GroupName>monitor lizard</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
@@ -1592,8 +1592,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>BearSkull</ID>
-    <Name>crane d ours</Name>
-    <GroupName>bear</GroupName>
+    <Name></Name>
+    <GroupName>Ours</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -1614,8 +1614,8 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>OgreSkull</ID>
-    <Name>crane d ogre</Name>
-    <GroupName>ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
@@ -1635,22 +1635,22 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>TwoHeadedOgreSkull</ID>
-    <Name>crane d ogre a 2 tetes</Name>
-    <GroupName>two-headed ogre</GroupName>
+    <Name></Name>
+    <GroupName>Ogre a deux tetes</GroupName>
     <Type>Bone</Type>
     <Value>1</Value>
     <Strength>1.5</Strength>
   </Item>
   <Item>
     <ID>Grape</ID>
-    <Name>grappe de raisin</Name>
+    <Name>Grain de raisin</Name>
     <Type>Plant</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
     <ID>Orange</ID>
-    <Name>orange</Name>
+    <Name>Orange</Name>
     <Type>Plant</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
@@ -1671,7 +1671,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>OrangeWood</ID>
-    <Name>bois d oranger</Name>
+    <Name>Bois d'oranger</Name>
     <Type>Wood</Type>
     <Color>198 161 115 255</Color>
     <Value>1</Value>
@@ -1679,7 +1679,7 @@
   </Item>
   <Item>
     <ID>Mushroom</ID>
-    <Name>champignon</Name>
+    <Name>Champignon</Name>
     <Type>Plant</Type>
     <Value>1</Value>
     <Strength>0.1</Strength>
@@ -1700,7 +1700,7 @@
     </Heat>
     <Sustains>225</Sustains>
     <ID>Silica</ID>
-    <Name>silice</Name>
+    <Name>Silice</Name>
     <Type>Soil</Type>
     <Color>255 255 255 255</Color>
     <Value>1</Value>
@@ -1722,7 +1722,7 @@
     </Heat>
     <Sustains>425</Sustains>
     <ID>Ceramic</ID>
-    <Name>ceramique</Name>
+    <Name>Ceramic</Name>
     <Type>Stone</Type>
     <Color>164 79 58 255</Color>
     <Value>2</Value>
@@ -1744,7 +1744,7 @@
     </Heat>
     <Sustains>225</Sustains>
     <ID>Glass</ID>
-    <Name>verre</Name>
+    <Name>Verre</Name>
     <Type>Stone</Type>
     <Color>255 255 255 255</Color>
     <Value>1</Value>

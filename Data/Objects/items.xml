@@ -81,6 +81,7 @@
     <ID>RawSoil</ID>
     <Name>terre</Name>
     <ObtainDescription>Terre naturelle</ObtainDescription>
+	<Description>De la [ITEM_NAME].</Description>
     
     <Value>0</Value>
     <HasQuality>false</HasQuality>
@@ -93,6 +94,7 @@
     <Prefix>raw</Prefix>
     <ObtainDescription>Pierre brute trouvee naturellement</ObtainDescription>
     <GroupName>stone</GroupName>
+    <Description>Une [ITEM_NAME].</Description>
     
     <Value>0</Value>
     <HasQuality>false</HasQuality>
@@ -104,6 +106,7 @@
   <Item>
     <ID>RawWood</ID>
     <Name>rondins</Name>
+	<Description>Un [ITEM_NAME].</Description>
     <ObtainDescription>Obtenus en coupant des arbres</ObtainDescription>
     
     <HasQuality>false</HasQuality>
@@ -115,6 +118,7 @@
   <Item>
     <ID>RawCoal</ID>
     <Description>[ITEM_NAME].</Description>
+	<Description>Un [ITEM_NAME].</Description>
     <ObtainDescription>Se trouve dans la pierre ou se fabrique dans un charbonnier</ObtainDescription>
     <GroupName>coal</GroupName>
     
@@ -162,6 +166,7 @@
     <ID>RawHide</ID>
     <Name>peau</Name>
     <ObtainDescription>Se recupere sur les animaux a la boucherie</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     <HasQuality>false</HasQuality>
     <SpriteID>
       <SpriteID>RawHide</SpriteID>
@@ -170,6 +175,7 @@
   <Item>
     <ID>Seed</ID>
     <Name>graine</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
     <SpriteID>
@@ -193,6 +199,7 @@
     <ID>Clipping</ID>
     <Name>bouture</Name>
     <ObtainDescription>Se recolte sur les arbres</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
     <SpriteID>
@@ -215,6 +222,7 @@
     <ID>Fruit</ID>
     <ObtainDescription>Pousse dans une ferme ou se recolte sur des arbres</ObtainDescription>
     <GroupName>fruit</GroupName>
+	<Description>Un [ITEM_NAME].</Description>
     <Effect>
       <Effect>Food</Effect>
       <Amount>15</Amount>
@@ -239,7 +247,7 @@
   </Item>
   <Item>
     <ID>Egg</ID>
-    <Name>euf</Name>
+    <Name>oeuf</Name>
     <Description>Un [ITEM_NAME] cru.</Description>
     <ObtainDescription>Pondu par une emeu femelle</ObtainDescription>      
     <Effect>
@@ -285,6 +293,7 @@
     <ID>Sausage</ID>
     <Name>saucisse</Name>
     <ObtainDescription>Se fabrique dans une cuisine</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Food</Effect>
       <Amount>20</Amount>
@@ -355,6 +364,7 @@
     <ID>Bone</ID>
     <Name>os</Name>
     <ObtainDescription>Se recupere sur les animaux a la boucherie</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -366,6 +376,7 @@
     <ID>Skull</ID>
     <Name>crane</Name>
     <ObtainDescription>Se recupere sur les animaux a la boucherie</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -377,6 +388,7 @@
     <ID>Block</ID>
     <Name>bloc</Name>
     <ObtainDescription>Obtenu a l'atelier de taille des blocs</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <BaseValue>1</BaseValue>
     <HasQuality>false</HasQuality>
@@ -389,6 +401,7 @@
     <ID>Plank</ID>
     <Name>planche</Name>
     <ObtainDescription>Se decoupe dans une scierie</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>100</WeaponSize>
@@ -400,6 +413,7 @@
     <ID>Bar</ID>
     <Name>Lingot</Name>
     <ObtainDescription>S'obtient dans une fonderie</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>20</WeaponSize>
@@ -431,6 +445,7 @@
     <ID>Bandage</ID>
     <Name>bandage</Name>
     <ObtainDescription>Se fabrique a l'atelier de confection</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     <Effect>
       <Effect>Heal</Effect>
       <Amount>1</Amount>
@@ -674,6 +689,7 @@
   <Item>
     <ID>ResourcePile</ID>
     <Name>pile</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>64</Amount>
@@ -681,13 +697,21 @@
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
     <SpriteID>
-      <SpriteID>PlankWall</SpriteID>
+      <SpriteID>RawStone</SpriteID>
+      <SpriteIDByMaterialID>
+        <Key>Dirt</Key>
+        <Value>RawSoil</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Clay</Key>
+        <Value>RawSoil</Value>
+      </SpriteIDByMaterialID>
     </SpriteID>
   </Item>
   <Item>
     <ID>Crate</ID>
-    <Name>caisse</Name>
-    <Description>Une [AN_ITEM_NAME], Utilisee pour stocker differents objets.</Description>
+    <Name>Caisse</Name>
+    <Description>Une [ITEM_NAME], Utilisee pour stocker differents objets.</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -754,11 +778,21 @@
     <ID>Table</ID>
     <Name>table</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>5</Value>
     <WeaponSize>500</WeaponSize>
     <SpriteID>
       <SpriteID>StoneTable</SpriteID>
+      <SpriteID>WoodTable</SpriteID>
+      <SpriteIDByMaterialID>
+        <Key>Granite</Key>
+        <Value>StoneTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Basalt</Key>
+        <Value>StoneTable</Value>
+      </SpriteIDByMaterialID>
       <SpriteIDByMaterialID>
         <Key>Pine</Key>
         <Value>WoodTable</Value>
@@ -770,6 +804,24 @@
       <SpriteIDByMaterialID>
         <Key>Birch</Key>
         <Value>WoodTable</Value>
+        <Key>Bauxite</Key>
+        <Value>StoneTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Serpentine</Key>
+        <Value>StoneTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>LapisLazuli</Key>
+        <Value>StoneTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Obsidian</Key>
+        <Value>StoneTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Brick</Key>
+        <Value>StoneTable</Value>
       </SpriteIDByMaterialID>
     </SpriteID>
   </Item>
@@ -777,11 +829,36 @@
     <ID>Chair</ID>
     <Name>chaise</Name>
     <ObtainDescription>Fabrique a la Table de travail brut ou l'atelier d'un charpentier</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>5</Value>
     <WeaponSize>200</WeaponSize>
     <SpriteID>
-      <SpriteID>StoneChairFL</SpriteID>
+      <SpriteID>WoodChairFL</SpriteID>
+      <SpriteIDByMaterialID>
+        <Key>Granite</Key>
+        <Value>StoneChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Basalt</Key>
+        <Value>StoneChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Marble</Key>
+        <Value>StoneChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Sandstone</Key>
+        <Value>StoneChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Bauxite</Key>
+        <Value>StoneChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Serpentine</Key>
+        <Value>StoneChairFL</Value>
+      </SpriteIDByMaterialID>
       <SpriteIDByMaterialID>
         <Key>Pine</Key>
         <Value>WoodChairFL</Value>
@@ -800,6 +877,7 @@
     <ID>Bed</ID>
     <Name>lit</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <Value>5</Value>
     <WeaponSize>2000</WeaponSize>
@@ -815,6 +893,7 @@
     <ID>FancyBed</ID>
     <Name>lit a baldaquin</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <Value>5</Value>
     <WeaponSize>2000</WeaponSize>
@@ -832,6 +911,7 @@
   <Item>
     <ID>Statue</ID>
     <Name>statue</Name>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>25</Value>
     <WeaponSize>10000</WeaponSize>
@@ -908,7 +988,7 @@
   <Item>
     <ID>Sword</ID>
     <Name>epee</Name>
-    
+ 	<Description>Une [ITEM_NAME].</Description>   
     <Value>20</Value>
     <WeaponSize>100</WeaponSize>
     <CombatRatingModifier>3</CombatRatingModifier>
@@ -963,7 +1043,7 @@
   <Item>
     <ID>HandAxe</ID>
     <Name>hache de guerre</Name>
-    
+ 	<Description>Une [ITEM_NAME].</Description>   
     <Value>20</Value>
     <WeaponSize>100</WeaponSize>
     <CombatRatingModifier>3</CombatRatingModifier>
@@ -1004,7 +1084,7 @@
   <Item>
     <ID>Hammer</ID>
     <Name>masse d'arme</Name>
-    
+ 	<Description>Une [ITEM_NAME].</Description>   
     <Value>20</Value>
     <WeaponSize>100</WeaponSize>
     <CombatRatingModifier>3</CombatRatingModifier>
@@ -1045,7 +1125,7 @@
   <Item>
     <ID>Claymore</ID>
     <Name>claymore</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <TwoHanded>true</TwoHanded>
     <Value>20</Value>
     <WeaponSize>200</WeaponSize>
@@ -1089,7 +1169,7 @@
   <Item>
     <ID>BattleAxe</ID>
     <Name>hache de guerre 2mains</Name>
-    
+ 	<Description>Une [ITEM_NAME].</Description>   
     <TwoHanded>true</TwoHanded>
     <Value>20</Value>
     <WeaponSize>200</WeaponSize>
@@ -1130,7 +1210,7 @@
   <Item>
     <ID>Warhammer</ID>
     <Name>masse d'arme 2mains</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <TwoHanded>true</TwoHanded>
     <Value>20</Value>
     <WeaponSize>200</WeaponSize>
@@ -1172,7 +1252,7 @@
   <Item>
     <ID>Shield</ID>
     <Name>bouclier</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Value>20</Value>
     <WeaponSize>50</WeaponSize>
     <CombatRatingModifier>3</CombatRatingModifier>
@@ -1261,7 +1341,7 @@
   <Item>
     <ID>Helmet</ID>
     <Name>casque</Name>
-    
+ 	<Description>Un [ITEM_NAME].</Description>   
     <Value>8.5</Value>
     <CombatRatingModifier>2</CombatRatingModifier>
     <EquipSlot>Head</EquipSlot>
@@ -1280,7 +1360,7 @@
   <Item>
     <ID>Breastplate</ID>
     <Name>plastron</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Value>10</Value>
     <CombatRatingModifier>2</CombatRatingModifier>
     <EquipSlot>Body</EquipSlot>
@@ -1299,7 +1379,7 @@
   <Item>
     <ID>Pauldron</ID>
     <Name>epauliere</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <Value>6</Value>
     <CombatRatingModifier>1</CombatRatingModifier>
     <EquipSlot>Arm</EquipSlot>
@@ -1318,7 +1398,7 @@
   <Item>
     <ID>Greave</ID>
     <Name>jambiere</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <Value>4</Value>
     <CombatRatingModifier>1</CombatRatingModifier>
     <EquipSlot>Leg</EquipSlot>
@@ -1335,7 +1415,7 @@
   <Item>
     <ID>Gauntlet</ID>
     <Name>gant</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Value>4</Value>
     <CombatRatingModifier>0.5</CombatRatingModifier>
     <EquipSlot>Glove</EquipSlot>
@@ -1354,7 +1434,7 @@
   <Item>
     <ID>Boot</ID>
     <Name>botte</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <Value>4</Value>
     <CombatRatingModifier>0.5</CombatRatingModifier>
     <EquipSlot>Foot</EquipSlot>
@@ -1373,7 +1453,7 @@
   <Item>
     <ID>LeatherHelm</ID>
     <Name>casque en cuir</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Thickness>0.75</Thickness>
     <Value>6</Value>
     <CombatRatingModifier>2</CombatRatingModifier>
@@ -1388,7 +1468,7 @@
   <Item>
     <ID>LeatherCuirass</ID>
     <Name>cuirasse en cuir</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <Thickness>0.75</Thickness>
     <Value>6</Value>
     <CombatRatingModifier>2</CombatRatingModifier>
@@ -1403,7 +1483,7 @@
   <Item>
     <ID>LeatherBracer</ID>
     <Name>protege-poignet en cuir</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Thickness>0.75</Thickness>
     <Value>4</Value>
     <CombatRatingModifier>1</CombatRatingModifier>
@@ -1418,7 +1498,7 @@
   <Item>
     <ID>LeatherGreave</ID>
     <Name>jambiere en cuir</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <Thickness>0.75</Thickness>
     <Value>2.5</Value>
     <CombatRatingModifier>1</CombatRatingModifier>
@@ -1432,7 +1512,7 @@
   <Item>
     <ID>LeatherGlove</ID>
     <Name>gant en cuir</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Thickness>0.75</Thickness>
     <Value>2</Value>
     <CombatRatingModifier>0.5</CombatRatingModifier>
@@ -1447,7 +1527,7 @@
   <Item>
     <ID>LeatherBoot</ID>
     <Name>botte en cuir</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <Thickness>0.75</Thickness>
     <Value>2</Value>
     <CombatRatingModifier>0.5</CombatRatingModifier>
@@ -1462,6 +1542,7 @@
   <Item>
     <ID>Corpse</ID>
     <Name>corps</Name>
+	<Description>Un [ITEM_NAME].</Description>
     <Effect>
       <Effect>Rots</Effect>
       <Amount>4</Amount>
@@ -1476,6 +1557,7 @@
   <Item>
     <ID>BodyPart</ID>
     <Name>membre</Name>
+	<Description>Un [ITEM_NAME].</Description>
     <Effect>
       <Effect>Rots</Effect>
       <Amount>4</Amount>
@@ -1489,7 +1571,7 @@
   <Item>
     <ID>Pistol</ID>
     <Name>pistolet a silex</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <Value>31</Value>
     <WeaponSize>100</WeaponSize>
     <CombatRatingModifier>3</CombatRatingModifier>
@@ -1533,7 +1615,7 @@
   <Item>
     <ID>Blunderbuss</ID>
     <Name>fusil a silex</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <TwoHanded>true</TwoHanded>
     <Value>30</Value>
     <WeaponSize>200</WeaponSize>
@@ -1578,7 +1660,7 @@
   <Item>
     <ID>Crossbow</ID>
     <Name>arbalete</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <TwoHanded>true</TwoHanded>
     <Value>50</Value>
     <WeaponSize>200</WeaponSize>
@@ -1623,7 +1705,7 @@
   <Item>
     <ID>MusketRound</ID>
     <Name>balle pour arme a silex</Name>
-    
+	<Description>Une [ITEM_NAME].</Description>    
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
     <SpriteID>
@@ -1633,7 +1715,7 @@
   <Item>
     <ID>CrossbowBolt</ID>
     <Name>carreau d'arbalete</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>    
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
     <SpriteID>
@@ -1643,6 +1725,7 @@
   <Item>
     <ID>MusketRoundPile</ID>
     <Name>pile de balles pour arme a silex</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -1656,6 +1739,7 @@
   <Item>
     <ID>CrossbowBoltPile</ID>
     <Name>pile de carreaux d'arbalete</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>16</Amount>
@@ -1669,6 +1753,7 @@
   <Item>
     <ID>AmmoPouch</ID>
     <Name>poche a munition</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -1684,6 +1769,7 @@
   <Item>
     <ID>Quiver</ID>
     <Name>carquois</Name>
+	<Description>Un [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>16</Amount>
@@ -1699,7 +1785,7 @@
   <Item>
     <ID>Pillar</ID>
     <Name>pilier</Name>
-    
+	<Description>Un [ITEM_NAME].</Description>   
     <Value>25</Value>
     <WeaponSize>10000</WeaponSize>
     <SpriteID>
@@ -1710,6 +1796,7 @@
     <ID>Workbench</ID>
     <Name>plan de travail</Name>
     <ObtainDescription>Crafted at a Crude Workbench or a Carpenter's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1720,6 +1807,7 @@
     <ID>Chisel</ID>
     <Name>burin</Name>
     <ObtainDescription>Crafted at a Crude Workbench or a Stonemason's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <BaseValue>1</BaseValue>
     <HasQuality>false</HasQuality>
@@ -1732,6 +1820,7 @@
     <ID>Stick</ID>
     <Name>baton</Name>
     <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>50</WeaponSize>
@@ -1743,6 +1832,7 @@
     <ID>Loom</ID>
     <Name>rouet</Name>
     <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1757,6 +1847,7 @@
     <ID>Hilt</ID>
     <Name>poignee</Name>
     <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -1768,6 +1859,7 @@
     <ID>StoneKnifeBlade</ID>
     <Name>lame de couteau</Name>
     <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -1779,6 +1871,7 @@
     <ID>Knife</ID>
     <Name>couteau</Name>
     <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>50</WeaponSize>
     <CombatRatingModifier>1</CombatRatingModifier>
@@ -1806,6 +1899,7 @@
     <ID>Needle</ID>
     <Name>aiguille en os</Name>
     <ObtainDescription>Fabrique dans un atelier de Tailler d'os</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -1817,6 +1911,7 @@
     <ID>Sawblade</ID>
     <Name>lame de scie</Name>
     <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1827,6 +1922,7 @@
     <ID>Hearth</ID>
     <Name>foyer de four</Name>
     <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1837,6 +1933,7 @@
     <ID>Mold</ID>
     <Name>moule</Name>
     <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1847,6 +1944,7 @@
     <ID>Furnace</ID>
     <Name>fourneau</Name>
     <ObtainDescription>Fabrique dans un atelier de tailleur de pierre</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1857,6 +1955,7 @@
     <ID>Bellows</ID>
     <Name>soufflet</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1871,6 +1970,7 @@
     <ID>Anvil</ID>
     <Name>enclume</Name>
     <ObtainDescription>Fabrique dans une Forge</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>100</WeaponSize>
     <SpriteID>
@@ -1881,6 +1981,7 @@
     <ID>CuttingWheel</ID>
     <Name>roue de coupe</Name>
     <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1891,6 +1992,7 @@
     <ID>File</ID>
     <Name>lime</Name>
     <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1934,6 +2036,7 @@
     <ID>Wrench</ID>
     <Name>cle</Name>
     <ObtainDescription>Crafted in a Machine Shop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>50</WeaponSize>
     <CombatRatingModifier>1</CombatRatingModifier>
@@ -1956,6 +2059,7 @@
     <ID>Haft</ID>
     <Name>manche</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -1978,6 +2082,7 @@
     <ID>Mattress</ID>
     <Name>matelas</Name>
     <ObtainDescription>Fabrique dans un atelier de Tailleur</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1988,6 +2093,7 @@
     <ID>BedFrame</ID>
     <Name>armature de lit</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>2000</WeaponSize>
     <SpriteID>
@@ -1998,6 +2104,7 @@
     <ID>FancyBedFrame</ID>
     <Name>armature de lit a baldaquin</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <WeaponSize>2000</WeaponSize>
     <SpriteID>
@@ -2023,6 +2130,7 @@
   <Item>
     <ID>StrawPile</ID>
     <Name>botte de paille</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>16</Amount>
@@ -2039,6 +2147,7 @@
     <ID>String</ID>
     <Name>ficelle</Name>
     <ObtainDescription>Fabrique dans un atelier de Tailleur</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -2050,6 +2159,7 @@
     <ID>Padding</ID>
     <Name>rembourrage</Name>
     <ObtainDescription>Fabrique dans un atelier de Tailleur</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -2061,6 +2171,7 @@
     <ID>PickaxeHead</ID>
     <Name>tete de pioche</Name>
     <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2072,6 +2183,7 @@
     <ID>FellingAxeHead</ID>
     <Name>tete de hache de bucheron</Name>
     <ObtainDescription>Fabrique dans un atelier de forgeron</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2083,6 +2195,7 @@
     <ID>SwordBlade</ID>
     <Name>lame d'epee</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2094,6 +2207,7 @@
     <ID>HandAxeHead</ID>
     <Name>tete de hache de guerre</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2105,6 +2219,7 @@
     <ID>HammerHead</ID>
     <Name>tete de masse d'arme</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2116,6 +2231,7 @@
     <ID>ClaymoreBlade</ID>
     <Name>lame de claymore</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2127,6 +2243,7 @@
     <ID>BattleAxeHead</ID>
     <Name>tete de hache de guerre 2mains</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2138,6 +2255,7 @@
     <ID>WarhammerHead</ID>
     <Name>tete de masse d'armes 2mains</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2149,6 +2267,7 @@
     <ID>ShieldBoss</ID>
     <Name>umbo de bouclier</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2160,6 +2279,7 @@
     <ID>ShieldBacking</ID>
     <Name>corps de bouclier</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2171,6 +2291,7 @@
     <ID>LeatherStrap</ID>
     <Name>sangle en cuir</Name>
     <ObtainDescription>Fabrique dans un atelier de Travail du cuir</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -2182,6 +2303,7 @@
     <ID>LeatherArmorPanel</ID>
     <Name>Panneau de cuir</Name>
     <ObtainDescription>Fabrique dans un atelier de Travail du cuir</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2193,6 +2315,7 @@
     <ID>ArmorPlate</ID>
     <Name>blindage</Name>
     <ObtainDescription>CFabrique dans un atelier d'armurier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>20</WeaponSize>
@@ -2204,6 +2327,7 @@
     <ID>PistolStock</ID>
     <Name>corps de pistolet a silex</Name>
     <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2215,6 +2339,7 @@
     <ID>PistolBarrel</ID>
     <Name>canon de pistolet a silex</Name>
     <ObtainDescription>Crafted in a Machine Shop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2226,6 +2351,7 @@
     <ID>BlunderbussStock</ID>
     <Name>corps de fusil a silex</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2237,6 +2363,7 @@
     <ID>BlunderbussBarrel</ID>
     <Name>canon de fusil a silex</Name>
     <ObtainDescription>Crafted in a Machine Shop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2248,6 +2375,7 @@
     <ID>CrossbowBow</ID>
     <Name>mecanisme d'arbalete</Name>
     <ObtainDescription>Crafted in a Machine Shop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2259,6 +2387,7 @@
     <ID>CrossbowStock</ID>
     <Name>corps d'arbalete</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2270,6 +2399,7 @@
     <ID>TrapBase</ID>
     <Name>trap base</Name>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>3</Value>
     <WeaponSize>10</WeaponSize>
@@ -2285,6 +2415,7 @@
     <ID>Spike</ID>
     <Name>pieu</Name>
     <ObtainDescription>Crafted in a Machine Shop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>50</WeaponSize>
@@ -2296,6 +2427,7 @@
     <ID>MechanismBase</ID>
     <Name>mechanism base</Name>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2311,6 +2443,7 @@
     <ID>WindmillBlade</ID>
     <Name>windmill blade</Name>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2323,6 +2456,7 @@
     <ID>Cylinder</ID>
     <Name>cylindre</Name>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2334,6 +2468,7 @@
     <ID>TrainingDummy</ID>
     <Name>mannequin d'entrainement</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <WeaponSize>50</WeaponSize>
     <SpriteID>
@@ -2344,6 +2479,7 @@
     <ID>Dresser</ID>
     <Name>commode</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>10</Value>
     <WeaponSize>200</WeaponSize>
@@ -2355,6 +2491,7 @@
     <ID>Cabinet</ID>
     <Name>penderie</Name>
     <ObtainDescription>Fabrique dans un atelier de Charpentier</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>10</Value>
     <WeaponSize>200</WeaponSize>
@@ -2365,6 +2502,7 @@
   <Item>
     <ID>SkullHelmet</ID>
     <Name>Casque crane</Name>
+	<Description>Un [ITEM_NAME].</Description>
     
     <CombatRatingModifier>1</CombatRatingModifier>
     <EquipSlot>Head</EquipSlot>
@@ -2378,6 +2516,7 @@
   <Item>
     <ID>BoneShirt</ID>
     <Name>chemise d'os</Name>
+	<Description>Une [ITEM_NAME].</Description>
     
     <CombatRatingModifier>2</CombatRatingModifier>
     <EquipSlot>Body</EquipSlot>
@@ -2392,6 +2531,7 @@
     <ID>Screw</ID>
     <Name>vis</Name>
     <ObtainDescription>Crafted in a Machine shop</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     <HasQuality>false</HasQuality>
     <WeaponSize>30</WeaponSize>
     <SpriteID>
@@ -2931,7 +3071,7 @@
   <Item>
     <ID>Wheelbarrow</ID>
     <Name>brouette</Name>
-    <Description>[AN_ITEM_NAME].  Used to haul various items.</Description>
+    <Description>Une [ITEM_NAME].  Used to haul various items.</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -2951,6 +3091,7 @@
   <Item>
     <ID>AlarmBell</ID>
     <Name>Cloche d'alarme</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Description></Description>
     
     <WeaponSize>100</WeaponSize>
@@ -2967,6 +3108,7 @@
     <ID>WoodenShield</ID>
     <Name>bouclier basique</Name>
     <GroupName>wooden shield</GroupName>
+	<Description>Un [ITEM_NAME].</Description>
     
     <Value>20</Value>
     <WeaponSize>50</WeaponSize>
@@ -3011,6 +3153,7 @@
   <Item>
     <ID>TowerShield</ID>
     <Name>bouclier de guerre</Name>
+	<Description>Un [ITEM_NAME].</Description>
     
     <TwoHanded>true</TwoHanded>
     <Value>40</Value>
@@ -3057,6 +3200,7 @@
     <ID>StoneSword</ID>
     <Name>epee de pierre</Name>
     <GroupName>stone sword</GroupName>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>20</Value>
     <WeaponSize>100</WeaponSize>
@@ -3113,6 +3257,7 @@
     <ID>StoneHandAxe</ID>
     <Name>hache en pierre</Name>
     <GroupName>stone hand axe</GroupName>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>20</Value>
     <WeaponSize>100</WeaponSize>
@@ -3155,6 +3300,7 @@
     <ID>StoneHammer</ID>
     <Name>masse d'arme en pierre</Name>
     <GroupName>stone hammer</GroupName>
+	<Description>Une [ITEM_NAME].</Description>
     
     <Value>20</Value>
     <WeaponSize>100</WeaponSize>
@@ -3197,6 +3343,7 @@
     <ID>TowerShieldBacking</ID>
     <Name>corps de bouclier de guerre</Name>
     <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -3250,6 +3397,7 @@
   <Item>
     <ID>SilicaPile</ID>
     <Name>pile</Name>
+	<Description>Une [ITEM_NAME].</Description>
     <Effect>
       <Effect>Storage</Effect>
       <Amount>32</Amount>
@@ -3275,6 +3423,7 @@
     <ID>GlassPane</ID>
     <Name>pane</Name>
     <ObtainDescription>Fired in a Kiln</ObtainDescription>
+	<Description>Une [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -3286,6 +3435,7 @@
     <ID>ArtificialArm</ID>
     <Name>prothese du bras</Name>
     <GroupName>prosthetic arm</GroupName>
+	<Description>Une [ITEM_NAME].</Description>
     
     <SpriteID>
       <SpriteID>ArtificialRightArmItem</SpriteID>
@@ -3298,8 +3448,9 @@
   </Item>
   <Item>
     <ID>ArtificialHand</ID>
-    <Name>prthese de main</Name>
+    <Name>prothese de main</Name>
     <GroupName>prosthetic hand</GroupName>
+	<Description>Une [ITEM_NAME].</Description>
     
     <SpriteID>
       <SpriteID>ArtificialRightHandItem</SpriteID>
@@ -3310,6 +3461,7 @@
     <ID>ArtificialLeg</ID>
     <Name>prothese de jambe</Name>
     <GroupName>prosthetic leg</GroupName>
+	<Description>Une [ITEM_NAME].</Description>
     
     <SpriteID>
       <SpriteID>ArtificialRightLegItem</SpriteID>
@@ -3329,6 +3481,7 @@
   <Item>
     <ID>Automaton</ID>
     <Name>automate</Name>
+	<Description>Un [ITEM_NAME].</Description>
     <Value>6</Value>
     <HasQuality>false</HasQuality>
     <SpriteID>
@@ -3339,6 +3492,7 @@
     <ID>GolemCore</ID>
     <Name>coeur de golem</Name>
     <ObtainDescription>Occasionally found on golems</ObtainDescription>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <SpriteID>
@@ -3349,6 +3503,7 @@
     <ID>AutomatonCore</ID>
     <Name>coeur d'automate</Name>
     <GroupName>automaton core</GroupName>
+	<Description>Un [ITEM_NAME].</Description>
     
     <HasQuality>false</HasQuality>
     <SpriteID>

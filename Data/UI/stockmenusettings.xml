@@ -300,7 +300,7 @@
 	</MenuItem>
 	<!--furniture-->
 	<MenuItem>
-	  <Text>objets</Text>
+	  <Text>Objets</Text>
 	  <MenuItem>
 		<ItemID>Table</ItemID>
 	  </MenuItem>
@@ -340,7 +340,7 @@
 	</MenuItem>
 	<!--mechanism-->
 	<MenuItem>
-	  <Text>mecanismes</Text>
+	  <Text>Mecanismes</Text>
 	  <!--part-->
 	  <MenuItem>
 		<Text>elements</Text>
@@ -428,7 +428,7 @@
 	</MenuItem>
 	<!--tool-->
 	<MenuItem>
-	  <Text>outil</Text>
+	  <Text>Outil</Text>
 	  <MenuItem>
 		<ItemID>PickaxeHead</ItemID>
 	  </MenuItem>
@@ -444,7 +444,7 @@
 	</MenuItem>
 	<!--weapons-->
 	<MenuItem>
-	  <Text>armes</Text>
+	  <Text>Armes</Text>
 	  <!--melee-->
 	  <MenuItem>
 		<Text>melee</Text>
@@ -597,7 +597,7 @@
 	</MenuItem>
 	<!--armor-->
 	<MenuItem>
-	  <Text>armure</Text>
+	  <Text>Armure</Text>
 	  <!--metal-->
 	  <MenuItem>
 		<Text>metal</Text>
