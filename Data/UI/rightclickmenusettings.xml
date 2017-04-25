@@ -1,4 +1,4 @@
-﻿<RightClickMenuSettings>
+<RightClickMenuSettings>
 	<!--MenuItem: Used to build the right click menu
       Text: Displayed text
       ToolTip (optional): Displayed tool tip
@@ -11,22 +11,22 @@
 	  <MenuItem>
 		<Text>Miner</Text>         
 		  <MenuItem>
-			<Text>Mur</Text>
-			<ToolTip>Detruire mur</ToolTip>
+			<Text>Paroi</Text>
+			<ToolTip>Abattre la paroi</ToolTip>
 			<Action>
 			  <Type>Mine</Type>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Escaliers montants</Text>
-			<ToolTip>Mine le mur en ecaliers vers le haut</ToolTip>
+			<Text>Escaliers ascendants</Text>
+			<ToolTip>Transforme la paroi en ecaliers ascendants</ToolTip>
 			<Action>
 			  <Type>MineStairsUp</Type>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Rampe montante</Text>
-			<ToolTip>Mine le mur en rampe vers le haut</ToolTip>
+			<Text>Pente ascendante</Text>
+			<ToolTip>Mine la paroi en pente ascendante</ToolTip>
 			<Action>
 			  <Type>MineRampUp</Type>
 			</Action>
@@ -36,64 +36,64 @@
 		<Text>Creuser</Text>
 		  <MenuItem>
 			<Text>Trou</Text>
-			<ToolTip>Creuse le sol et le bloc dessous</ToolTip>
+			<ToolTip>Creuse le sol et le bloc inferieur</ToolTip>
 			<Action>
 			  <Type>DigHole</Type>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
 			<Text>Escaliers descendants</Text>
-			<ToolTip>Creuse le sol et le bloc dessous en escaliers</ToolTip>
+			<ToolTip>Transforme le bloc inferieur en escaliers descendants</ToolTip>
 			<Action>
 			  <Type>DigStairsDown</Type>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Rampe descendante</Text>
-			<ToolTip>Creuse le sol et le bloc dessous en rampe</ToolTip>
+			<Text>Pente descendante</Text>
+			<ToolTip>Transforme le bloc inferieur en pente descendante</ToolTip>
 			<Action>
 			  <Type>DigRampDown</Type>
 			</Action>
 		  </MenuItem>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Enlever sol</Text>
-		<ToolTip>Creuse le sol sans toucher au bloc dessous</ToolTip>
+		<Text>Retirer la surface</Text>
+		<ToolTip>Enleve le sol mais pas le bloc inferieur</ToolTip>
 		<Action>
 		  <Type>RemoveFloor</Type>
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Enlever rampe</Text>
-		<ToolTip>Enleve une rampe</ToolTip>
+		<Text>Retirer la pente</Text>
+		<ToolTip>Retire la pente</ToolTip>
 		<Action>
 		  <Type>RemoveRamp</Type>
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Remplacer mur</Text>
-		<ToolTip>Remplace un mur existant par un autre type</ToolTip>
+		<Text>Modifier la paroi</Text>
+		<ToolTip>Change le type de paroi</ToolTip>
 		<Action>
 		  <Type>ReplaceWall</Type>
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Remplacer sol</Text>
-		<ToolTip>Remplace un sol existant par un autre type</ToolTip>
+		<Text>Modifier le sol</Text>
+		<ToolTip>Change le type de sol</ToolTip>
 		<Action>
 		  <Type>ReplaceFloor</Type>
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Remplir trou</Text>
-		<ToolTip>Construit un mur par le dessus</ToolTip>
+		<Text>Combler le trou</Text>
+		<ToolTip>Convertit la zone vide inferieure en paroi</ToolTip>
 		<Action>
 		  <Type>FillHole</Type>
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
       <Text>Cacher</Text>
-      <ToolTip>Set terrain to Hidden</ToolTip>
+      <ToolTip>Masquer le terrain</ToolTip>
       <Action>
         <Type>Hide</Type>
       </Action>
@@ -138,7 +138,7 @@
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Bucheronner des arbres</Text>
+		<Text>Couper les arbres</Text>
 		<ToolTip>Coupe les arbres pour en faire des rondins</ToolTip>
 		<Action>
 		  <Type>FellTree</Type>
@@ -152,8 +152,8 @@
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Moissonner</Text>
-		<ToolTip>Moissone la nourriture</ToolTip>
+		<Text>Recolter</Text>
+		<ToolTip>Recueille la nourriture</ToolTip>
 		<Action>
 		  <Type>Forage</Type>
 		</Action>
@@ -166,7 +166,7 @@
 	  <MenuItem>
 		<Text>Ateliers</Text>
 		<MenuItem>
-		  <Text>Atelier basique</Text>
+		  <Text>Atelier de base</Text>
 		  <Action>
 			<Type>BuildWorkshop</Type>
 			<ID>CrudeWorkbench</ID>
@@ -182,7 +182,7 @@
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Atelier de menuiserie</Text>
+			<Text>Menuiserie</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Carpenter</ID>
@@ -213,7 +213,7 @@
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Sculpteur de pierres</Text>
+			<Text>Sculpteur de pierre</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Stonecarver</ID>
@@ -238,7 +238,7 @@
 		  </MenuItem>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Nourriture/Boissons</Text>
+		  <Text>Alimentation</Text>
 		  <MenuItem>
 			<Text>Boucherie</Text>
 			<Action>
@@ -294,14 +294,14 @@
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Fonderie de minerai</Text>
+			<Text>Fonderie de minerais</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Forge</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Fonderie d'objets</Text>
+			<Text>Fonderie de composants</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Smelter</ID>
@@ -315,21 +315,21 @@
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Atelier de sculpteur de metaux</Text>
+			<Text>Sculpteur de metaux</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Metalworker</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Frabicant d'armes</Text>
+			<Text>Armurier - armes</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Weaponsmith</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Frabicant d'armures</Text>
+			<Text>Armurier - armures</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Armorer</ID>
@@ -339,7 +339,7 @@
 		<MenuItem>
 		  <Text>Mecanismes</Text>
 		  <MenuItem>
-			<Text>Banc de recherche</Text>
+			<Text>Table de laboratoire</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>TinkerBench</ID>
@@ -353,7 +353,7 @@
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Atelier d'ingenieur</Text>
+			<Text>Atelier d'ingenierie</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Engineer</ID>
@@ -373,35 +373,35 @@
 		<MenuItem>
 		  <Text>Divers</Text>
 		  <MenuItem>
-			<Text>Four a potteries</Text>
+			<Text>Four a poteries</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Kiln</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Atelier de tanneur</Text>
+			<Text>Tannerie</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Leatherworker</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Marche</Text>
+			<Text>Etal de vente</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>MarketStall</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Atelier de sculpteur d'os</Text>
+			<Text>Sculpteur d'os</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Bonecarver</ID>
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>Atelier de prospection</Text>
+			<Text>Prospection commerciale</Text>
 			<Action>
 			  <Type>BuildWorkshop</Type>
 			  <ID>Prospector</ID>
@@ -413,7 +413,7 @@
 	  <MenuItem>
 		<Text>Mecanisme</Text>
 		<MenuItem>
-		  <Text>Lien</Text>
+		  <Text>Element de liaison</Text>
 		  <MenuItem>
 			<Text>Axe</Text>
 			<Action>
@@ -429,7 +429,7 @@
 			</Action>
 		  </MenuItem>
 		  <MenuItem>
-			<Text>GearBox</Text>
+			<Text>Boitier de redirection</Text>
 			<Action>
 			  <Type>BuildMechanism</Type>
 			  <ID>GearBox</ID>
@@ -478,7 +478,7 @@
 		  </MenuItem>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Piege auto-alimente</Text>
+		  <Text>Piege autonome</Text>
 		  <MenuItem>
 			<Text>Piege a pieux</Text>
 			<Action>
@@ -495,9 +495,9 @@
 		  </MenuItem>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Source d'energie</Text>
+		  <Text>Generateur d'energie</Text>
 		  <MenuItem>
-			<Text>manivelle</Text>
+			<Text>Manivelle</Text>
 			<Action>
 			  <Type>BuildMechanism</Type>
 			  <ID>Handcrank</ID>
@@ -550,7 +550,7 @@
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>table</Text>
+		  <Text>Table</Text>
 		  <Action>
 			<Type>BuildConstruction</Type>
 			<ID>Table</ID>
@@ -684,7 +684,7 @@
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Escaliers montants</Text>
+		  <Text>Escaliers ascendants</Text>
 		  <ToolTip>Construit des escaliers vers le haut</ToolTip>
 		  <Action>
 			<Type>BuildStairsUp</Type>
@@ -698,28 +698,28 @@
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Ramp montante</Text>
+		  <Text>Pente ascendante</Text>
 		  <ToolTip>Construit une rampe montante</ToolTip>
 		  <Action>
 			<Type>BuildInclineUp</Type>
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Romp descendante</Text>
+		  <Text>Pente descendante</Text>
 		  <ToolTip>Construit une rampe descendante</ToolTip>
 		  <Action>
 			<Type>BuildInclineDown</Type>
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Rampe montante</Text>
+		  <Text>Pente ascendante</Text>
 		  <ToolTip>Mine le mur en rampe montante</ToolTip>
 		  <Action>
 			<Type>BuildRampUp</Type>
 		  </Action>
 		</MenuItem>
 		<MenuItem>
-		  <Text>Rampe descendante</Text>
+		  <Text>Pente descendante</Text>
 		  <ToolTip>Mine le mur en rampe descendante</ToolTip>
 		  <Action>
 			<Type>BuildRampDown</Type>
@@ -801,7 +801,7 @@
 		</Action>
 	  </MenuItem>
 	  <MenuItem>
-		<Text>Zone gardee</Text>
+		<Text>Zone de garde</Text>
 		<ToolTip>Designe une zone ou les gardes se rendent</ToolTip>
 		<Action>
 		  <Type>CreateGuardArea</Type>
@@ -854,7 +854,7 @@
 	  </Action>
 	</MenuItem>
 	<MenuItem>
-	  <Text>Effacer zone designee</Text>
+	  <Text>Effacer designation</Text>
 	  <ToolTip>Enleve une zone designee</ToolTip>
 	  <Action>
 		<Type>RemoveDesignation</Type>
