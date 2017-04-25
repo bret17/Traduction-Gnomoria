@@ -1,4 +1,4 @@
-﻿<StockMenuSettings>
+<StockMenuSettings>
   <!--MenuItem: Used to build checkbox trees for various stock related UI windows
         Text (optional): Displayed text.  Requires children and only used when no ItemID is set
         MenuItem (optional): Creates children items. Recursively defined
@@ -10,10 +10,10 @@
   -->
   <!--goods-->
   <MenuItem>
-	  <Text>Marchandises</Text>
+	  <Text>biens</Text>
 	  <!--soil-->
 	  <MenuItem>
-		<Text>soil</Text>
+		<Text>terre</Text>
 		<MenuItem>
 		  <ItemID>RawSoil</ItemID>
 		</MenuItem>
@@ -170,7 +170,7 @@
 	  </MenuItem>
 	  <!--crafts-->
 	  <MenuItem>
-		<Text>crafts</Text>
+		<Text>art</Text>
 		<MenuItem>
 		  <ItemID>Statuette</ItemID>
 		</MenuItem>
@@ -271,7 +271,7 @@
 	  </MenuItem>
 	  <!--body part-->
 	  <MenuItem>
-		<Text>parties du corps</Text>
+		<Text>parties anatomiques</Text>
 		<MenuItem>
 		  <ItemID>Corpse</ItemID>
 		</MenuItem>
@@ -300,7 +300,7 @@
 	</MenuItem>
 	<!--furniture-->
 	<MenuItem>
-	  <Text>Objets</Text>
+	  <Text>objets</Text>
 	  <MenuItem>
 		<ItemID>Table</ItemID>
 	  </MenuItem>
@@ -340,10 +340,10 @@
 	</MenuItem>
 	<!--mechanism-->
 	<MenuItem>
-	  <Text>Mecanismes</Text>
+	  <Text>mecanismes</Text>
 	  <!--part-->
 	  <MenuItem>
-		<Text>elements</Text>
+		<Text>composants</Text>
 		<MenuItem>
 		  <ItemID>Rod</ItemID>
 		</MenuItem>
@@ -380,7 +380,7 @@
 	  </MenuItem>
 	  <!--link-->
 	  <MenuItem>
-		<Text>link</Text>
+		<Text>element de liaison</Text>
 		<MenuItem>
 		  <ItemID>Axle</ItemID>
 		</MenuItem>
@@ -400,7 +400,7 @@
 	  </MenuItem>
 	  <!--device-->
 	  <MenuItem>
-		<Text>device</Text>
+		<Text>dispositif</Text>
 		<MenuItem>
 		  <ItemID>MechanicalWall</ItemID>
 		</MenuItem>
@@ -410,7 +410,7 @@
 	  </MenuItem>
 	  <!--power source-->
 	  <MenuItem>
-		<Text>source d'energie</Text>
+		<Text>generateur d'energie</Text>
 		<MenuItem>
 		  <ItemID>Handcrank</ItemID>
 		</MenuItem>
@@ -428,7 +428,7 @@
 	</MenuItem>
 	<!--tool-->
 	<MenuItem>
-	  <Text>Outil</Text>
+	  <Text>outil</Text>
 	  <MenuItem>
 		<ItemID>PickaxeHead</ItemID>
 	  </MenuItem>
@@ -444,10 +444,10 @@
 	</MenuItem>
 	<!--weapons-->
 	<MenuItem>
-	  <Text>Armes</Text>
+	  <Text>armes</Text>
 	  <!--melee-->
 	  <MenuItem>
-		<Text>melee</Text>
+		<Text>corps a corps</Text>
 		<MenuItem>
 		  <ItemID>Sword</ItemID>
 		</MenuItem>
@@ -512,7 +512,7 @@
 	  </MenuItem>
 	  <!--melee parts-->
 	  <MenuItem>
-		<Text>elements de melee</Text>
+		<Text>composants pour corps a corps</Text>
 		<MenuItem>
 		  <ItemID>Hilt</ItemID>
 		</MenuItem>
@@ -549,7 +549,7 @@
 	  </MenuItem>
 	  <!--ranged parts-->
 	  <MenuItem>
-		<Text>elements de distance</Text>
+		<Text>composants pour a distance</Text>
 		<MenuItem>
 		  <ItemID>PistolStock</ItemID>
 		</MenuItem>
@@ -571,7 +571,7 @@
 	  </MenuItem>
 	  <!--worn-->
 	  <MenuItem>
-		<Text>worn</Text>
+		<Text>arme usagee</Text>
 		<MenuItem>
 		  <ItemID>WornSword</ItemID>
 		</MenuItem>
@@ -597,7 +597,7 @@
 	</MenuItem>
 	<!--armor-->
 	<MenuItem>
-	  <Text>Armure</Text>
+	  <Text>armure</Text>
 	  <!--metal-->
 	  <MenuItem>
 		<Text>metal</Text>
@@ -660,7 +660,7 @@
 	  </MenuItem>
 	  <!--worn-->
 	  <MenuItem>
-		<Text>worn</Text>
+		<Text>armure usagee</Text>
 		<MenuItem>
 		  <ItemID>WornHelmet</ItemID>
 		</MenuItem>
