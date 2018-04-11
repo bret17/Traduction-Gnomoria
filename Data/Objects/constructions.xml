@@ -3228,7 +3228,7 @@
       <Key>HalfWall</Key>
       <Value>
         <Item>
-          <SpriteID>>RoughSoilShortWall</SpriteID>
+          <SpriteID>RoughSoilShortWall</SpriteID>
         </Item>
         <Item>
           <SpriteID>WoodShortWallFrame</SpriteID>

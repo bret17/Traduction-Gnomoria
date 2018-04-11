@@ -204,7 +204,7 @@
         <ConnectsTo>
           <Name>Tete</Name>
           <BodyPartID>GnomeHead</BodyPartID>
-          <MaterialID>StandardCoquille</MaterialID>
+          <MaterialID>StandardShell</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
@@ -546,7 +546,7 @@
         <ConnectsTo>
           <Name>Tete</Name>
           <BodyPartID>GnomeHead</BodyPartID>
-          <MaterialID>StandardCoquille</MaterialID>
+          <MaterialID>StandardShell</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
@@ -1060,18 +1060,18 @@
     <CorpseAngles>180</CorpseAngles>
     <MainBody>
       <Name>CephaloThorax</Name>
-      <BodyPartID>SpiderCephaloThorax</BodyPartID>
+      <BodyPartID>SpiderCephalothorax</BodyPartID>
       <MaterialID>ThickChitin</MaterialID>
       <ToHitWeight>1</ToHitWeight>
       <Limb>false</Limb>
       <ConnectsTo>
         <Name>Abdomen</Name>
-        <BodyPartID>SpiderAbdoman</BodyPartID>
+        <BodyPartID>SpiderAbdomen</BodyPartID>
         <MaterialID>ThickChitin</MaterialID>
         <ToHitWeight>0.5</ToHitWeight>
         <Limb>false</Limb>
         <ConnectsTo>
-          <Name>Stinger</Name>
+          <Name>Dard</Name>
           <BodyPartID>SpiderStinger</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.05</ToHitWeight>
@@ -1595,7 +1595,7 @@
         </ConnectsTo>
         <ConnectsTo>
           <Name>Mandibules</Name>
-          <BodyPartID>MantMandibules</BodyPartID>
+          <BodyPartID>MantMandibles</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
           <Limb>false</Limb>
@@ -1603,7 +1603,7 @@
         </ConnectsTo>
         <ConnectsTo>
           <Name>Antennes</Name>
-          <BodyPartID>MantAntennes</BodyPartID>
+          <BodyPartID>MantAntennae</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>true</Limb>
@@ -1611,7 +1611,7 @@
           <Tile>
             <BodyTiles>
               <TileDetails>
-                <SpriteID>AntennesRight</SpriteID>
+                <SpriteID>AntennaeRight</SpriteID>
               </TileDetails>
             </BodyTiles>
             <DrawOrder>0</DrawOrder>
@@ -1693,14 +1693,14 @@
         </ConnectsTo>
         <ConnectsTo>
           <Name>Mandibules</Name>
-          <BodyPartID>BeetleMandibules</BodyPartID>
+          <BodyPartID>BeetleMandibles</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.1</ToHitWeight>
           <Limb>false</Limb>
         </ConnectsTo>
         <ConnectsTo>
           <Name>Antennes</Name>
-          <BodyPartID>BeetleAntennes</BodyPartID>
+          <BodyPartID>BeetleAntennae</BodyPartID>
           <MaterialID>ThinChitin</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>true</Limb>
@@ -1920,7 +1920,7 @@
         <ConnectsTo>
           <Name>Tete</Name>
           <BodyPartID>SkeletonHead</BodyPartID>
-          <MaterialID>StandardCoquille</MaterialID>
+          <MaterialID>StandardShell</MaterialID>
           <ToHitWeight>0.2</ToHitWeight>
           <Limb>false</Limb>
           <EquipType>Head</EquipType>
